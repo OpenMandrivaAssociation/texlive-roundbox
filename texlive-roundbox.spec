@@ -42,6 +42,7 @@ producing round boxes in LaTeX.
 %files
 %{_texmfdistdir}/tex/latex/roundbox/roundbox.sty
 %doc %{_texmfdistdir}/doc/latex/roundbox/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +53,5 @@ producing round boxes in LaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
