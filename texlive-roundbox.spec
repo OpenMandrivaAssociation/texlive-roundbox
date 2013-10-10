@@ -1,12 +1,12 @@
-# revision 17896
+# revision 29675
 # category Package
 # catalog-ctan /macros/latex/contrib/roundbox
-# catalog-date 2010-04-29 07:59:03 +0200
+# catalog-date 2013-04-04 11:28:51 +0200
 # catalog-license lppl1.3
-# catalog-version 0.1
+# catalog-version 0.2
 Name:		texlive-roundbox
-Version:	0.1
-Release:	2
+Version:	0.2
+Release:	1
 Summary:	Round boxes in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/roundbox
@@ -19,8 +19,8 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-This package implements \roundbox command that can be used for
-producing round boxes in LaTeX.
+This package implements a command \roundbox that can be used,
+in LaTeX, for producing boxes, framed with rounded corners.
 
 %post
     %{_sbindir}/texlive.post
@@ -44,17 +44,3 @@ producing round boxes in LaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1-2
-+ Revision: 755727
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.1-1
-+ Revision: 719465
-- texlive-roundbox
-- texlive-roundbox
-- texlive-roundbox
-- texlive-roundbox
-
