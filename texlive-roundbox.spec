@@ -6,7 +6,7 @@
 # catalog-version 0.1
 Name:		texlive-roundbox
 Version:	0.1
-Release:	2
+Release:	3
 Summary:	Round boxes in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/roundbox
