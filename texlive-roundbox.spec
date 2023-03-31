@@ -1,6 +1,6 @@
 Name:		texlive-roundbox
 Version:	29675
-Release:	1
+Release:	2
 Summary:	Round boxes in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/roundbox
