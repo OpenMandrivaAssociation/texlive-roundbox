@@ -3,7 +3,7 @@ Version:	29675
 Release:	2
 Summary:	Round boxes in LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/roundbox
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/roundbox
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/roundbox.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/roundbox.doc.r%{version}.tar.xz
